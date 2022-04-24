@@ -26,8 +26,8 @@ public class Meal {
 	
 	public void showItems() {
 		for(Item item : items) {
-			System.out.println("Item: " + item.name());
-			System.out.println(", Packing: " + item.packing());
+			System.out.print("Item: " + item.name());
+			System.out.print(", Packing: " + item.packing().pack());
 			System.out.println(", Price: " + item.price());
 		}
 	}
